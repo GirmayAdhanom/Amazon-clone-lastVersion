@@ -70,7 +70,7 @@ width: 5%;
 
 }
 .subtotal > div,
-,.subtotal span{
+.subtotal span{
     display: flex;
     gap: 20px;
 
