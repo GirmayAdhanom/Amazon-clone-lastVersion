@@ -12,6 +12,7 @@ import { useContext } from "react";
 import { auth } from '../../../firebase/firebase';
 
 
+
 function Header() {
 
    const [{cart,user}, dispatch] = useContext(DataContext);
