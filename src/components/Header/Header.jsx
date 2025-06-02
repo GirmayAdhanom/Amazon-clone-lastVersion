@@ -5,7 +5,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { FiSearch } from "react-icons/fi";
 // import cartIcon from "../../assets/cart.jpg";
 import { BiCart } from "react-icons/bi";
-import Lowerheader from "./Lowerheader";
+import Lowerheader from "./LowerHeader";
 import { Link } from "react-router-dom";
 import { DataContext } from "../Context/Context";
 import { useContext } from "react";
