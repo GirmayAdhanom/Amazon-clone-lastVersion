@@ -1,0 +1,106 @@
+.category_container{
+    margin: 0 3%;
+    position: relative;
+    margin-top: -10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem 0;
+}
+.Category{
+max-width: 350px;
+width: 100%;
+aspect-ratio: 1/1.2;
+background-color: #fff;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+border-radius: 12px;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+transition: transform 0.3s, box-shadow 0.3s;
+}
+.Category:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba( 0,0,0,0.15);
+}
+.Category a{
+    text-decoration: none;
+    color: rgb(35,35,,35);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.Category img{
+width:100%;
+height: auto;
+max-height: 65%;
+object-fit: cover;
+padding: 0px 10px;
+transition: transform 0.3s;
+}
+.Category:hover img{
+    transform: scale(1.01);
+}
+.Category h2
+.Category p{
+padding: 5px;
+margin-left: 15px;
+}
+.Category h2{
+    font-size: clamp(1.1rem, 2.5vw, 1.3rem);
+    font-weight: 600;
+    color: #1a1a1a;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+.Category p{
+    font-size: clamp(0.8rem, 2vw, 0.9rem);
+    font-weight: 700;
+    color: #007bff;
+    margin-top: auto;
+    transition: color 0.3s;
+}
+.Category p:hover{
+ color: #0056b3
+}
+@media(max-width:768px){
+    .category_container{
+      
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+   margin: 0 4%;
+    }
+    .Category{
+        aspect-ratio: 1/1.3;
+    }
+    .Category img{
+        max-height: 60%;
+    }
+    .Category h2{
+        font-size: clamp(1rem, 2vw, 1.2rem);
+    }
+    .Category p{
+        font-size: clamp(0.75rem 1.8vw, 0.85rem);
+    }
+
+}
+@media(max-width: 380px){
+    .category_container{
+       grid-template-columns: 1fr; 
+       gap: 0.5rem;
+       margin: 0 5%;
+    }
+    .Category{
+        aspect-ratio: 1/1.4;
+    }
+    .Category img{
+        max-height: 55%;
+        padding: 0 5%;
+    }
+    .Category h2{
+        font-size: clamp(0.9rem, 3vw, 1rem);
+    }
+    .Category p{
+        font-size: clamp(0.7rem 2.5vw, 0.8rem);
+    }
+}

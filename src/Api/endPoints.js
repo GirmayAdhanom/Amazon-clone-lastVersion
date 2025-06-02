@@ -1,0 +1,1 @@
+export const productUrL=`https://fakestoreapi.com`;
