@@ -9,7 +9,7 @@ import Lowerheader from "./Lowerheader";
 import { Link } from "react-router-dom";
 import { DataContext } from "../Context/Context";
 import { useContext } from "react";
-import { auth } from '../../../firebase/firebase';
+import { auth } from '../../../Firebase/Firebase';
 
 
 

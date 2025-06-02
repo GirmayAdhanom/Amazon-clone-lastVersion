@@ -2,7 +2,7 @@ import { ToastContainer } from "react-toastify";
 import Home from "./pages/Home/Home"
 import Router from "./Router"
 import { useContext, useEffect } from "react";
-import { auth } from "../firebase/firebase";
+import { auth } from "../Firebase/Firebase";
 import { DataContext } from "./components/Context/Context";
 import { Type } from "./Utility/action.type";
 
