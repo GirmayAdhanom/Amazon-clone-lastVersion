@@ -1,5 +1,4 @@
 import { ToastContainer } from "react-toastify";
-import Home from "./pages/Home/Home"
 import Router from "./Router"
 import { useContext, useEffect } from "react";
 import { auth } from "../Firebase/Firebase";
