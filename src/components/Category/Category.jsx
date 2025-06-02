@@ -1,5 +1,5 @@
 import styles from "./Category.module.css"; // Ensure the filename is also updated to match
-import { categoryInfos } from "../../../../../../categoryFullInfos";
+import { categoryInfos } from "./categoryFullInfos";
 import CategoryCard from "./CategoryCard";
 
 function Category() {
