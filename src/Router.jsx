@@ -4,7 +4,7 @@ import Home from "./Pages/Home/Home";
 import Cart from "./Pages/Cart/Cart";
 import Auth from "./Pages/Auth/Auth";
 import Payment from "./Pages/Payment/Payment";
-import Orders from "./pages/Orders/Orders";
+import Orders from "./Pages/Orders/Orders";
 import Result from "./Pages/Result/Result"
 import ProductDetail from "./Pages/ProductDetail/ProductDetail"
 import { Elements } from '@stripe/react-stripe-js';
