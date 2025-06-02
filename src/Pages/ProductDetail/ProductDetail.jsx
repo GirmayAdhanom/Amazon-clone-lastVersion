@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { productUrL } from "../../Api/endPoints";
 import ProductCard from "../../components/Product/ProductCard";
-import Loader from "../../components/Loader/loader";
+import Loader from "../../components/Loader/Loader";
 
 function ProductDetail() {
   const{id}=useParams();
